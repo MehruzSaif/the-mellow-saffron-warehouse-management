@@ -1,6 +1,6 @@
 .item {
     width: 300px;
-    height: 550px;
+    height: 600px;
     border: none;
     border-radius: 8px;
     padding: 7px;
@@ -9,6 +9,11 @@
     box-shadow: 10px 10px 5px rgba(52, 56, 59, 0.25);
     text-align: center;
     padding-bottom: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.item:hover {
+    transform: translateY(20px);
 }
 
 .item-img {
@@ -16,3 +21,5 @@
     height: 290px;
     border-radius: 8px;
 }
+
+

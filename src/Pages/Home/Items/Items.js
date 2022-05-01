@@ -13,8 +13,8 @@ const Items = () => {
     }, [])
 
     return (
-        <div>
-            <h1 className='items-title'>Items Available</h1>
+        <div className='container'>
+            <h1 className='items-title my-5'>Items Available</h1>
             <div className="items-container">
             {
                 items.map(item => <Item
