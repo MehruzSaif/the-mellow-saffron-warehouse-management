@@ -13,7 +13,7 @@ const Items = () => {
     }, [])
 
     return (
-        <div className='container'>
+        <div id='items' className='container'>
             <h1 className='items-title my-5'>Items Available</h1>
             <div className="items-container">
             {
