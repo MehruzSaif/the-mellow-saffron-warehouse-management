@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../Item/Item';
+import './Items.css';
 
 const Items = () => {
 
@@ -13,13 +14,15 @@ const Items = () => {
 
     return (
         <div>
-            <h1>Items Available</h1>
+            <h1 className='items-title'>Items Available</h1>
+            <div className="items-container">
             {
                 items.map(item => <Item
                     key={item.id}
                     item={item}
                 ></Item>)
             }
+            </div>
         </div>
     );
 };
