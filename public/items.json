@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "পদার্থবিজ্ঞান (SSC)",
+        "description": "SSC পদার্থবিজ্ঞান এর সকল কনসেপ্ট শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13165614/media/9afe54cf2ecfd88a8d897e513818cbc5.png",
+        "price": 4000,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "2",
+        "name": "উচ্চতর গণিত (SSC)",
+        "description": "SSC উচ্চতর গণিত এর সকল কনসেপ্ট শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13928671/media/3b8e54c4afa6a85a99beb614d197749b.png",
+        "price": 5000,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "3",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13852801/media/feaadf63bd0f19f61eab7c704d4ee5df.png",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "3",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13852801/media/feaadf63bd0f19f61eab7c704d4ee5df.png",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "3",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13852801/media/feaadf63bd0f19f61eab7c704d4ee5df.png",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "3",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.dribbble.com/users/1731254/screenshots/13852801/media/feaadf63bd0f19f61eab7c704d4ee5df.png",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    }
+]
