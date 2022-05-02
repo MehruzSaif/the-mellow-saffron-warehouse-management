@@ -16,7 +16,7 @@
 }
 
 .register-title {
-    color: orangered;
+    color: rgb(160, 78, 30);
 }
 
 .register-btn {
@@ -25,5 +25,6 @@
 }
 
 .register-btn:hover {
-    background-color: orange;
+    background-color: rgba(160, 78, 30, 0.91);
+    color: white;
 }
