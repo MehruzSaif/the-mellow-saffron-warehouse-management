@@ -1,0 +1,7 @@
+.checkout-btn {
+    background-color: burlywood;
+}
+
+.checkout-btn:hover {
+    background-color: orange;
+}

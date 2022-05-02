@@ -1,13 +1,20 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import './ItemDetail.css';
 
-const ItemDetail = () => {
-    const {itemId} = useParams();
+const ServiceDetail = () => {
+    const { serviceId } = useParams();
+
     return (
         <div>
-            <h2>Welcome to detail: {itemId}</h2>
+            <h2>Welcome to service detail: {serviceId}</h2>
+            <div className='text-center'>
+                <Link to='/checkout'>
+                    <button className='btn checkout-btn'>Proceed Checkout</button>
+                </Link>
+            </div>
         </div>
     );
 };
 
-export default ItemDetail;
+export default ServiceDetail;

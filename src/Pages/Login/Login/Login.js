@@ -17,6 +17,10 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
+    if (user) {
+        navigate(form, { replace: true });
+    }
+
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
