@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        
         "name": "পদার্থবিজ্ঞান (SSC)",
         "description": "SSC পদার্থবিজ্ঞান এর সকল কনসেপ্ট শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
         "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/2_b8abe040-96dd-4c35-9d5e-dcd7ac87bbf3_1800x1800.jpg?v=1642066960",
@@ -9,7 +9,7 @@
         "supplierName": "Pran"
     },
     {
-        "id": "2",
+        
         "name": "উচ্চতর গণিত (SSC)",
         "description": "SSC উচ্চতর গণিত এর সকল কনসেপ্ট শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
         "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/2_f3539d88-3310-408f-a2f3-c333d1448d2b_1800x1800.jpg?v=1587976513",
@@ -40,6 +40,186 @@
         "name": " জীববিজ্ঞান (SSC)",
         "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
         "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/784_1800x1800.jpg?v=1634783653",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
+        "price": 3500,
+        "quantity": 20,
+        "supplierName": "Pran"
+    },
+    {
+        "id": "6",
+        "name": " জীববিজ্ঞান (SSC)",
+        "description": "SSC জীববিজ্ঞান এর সকল বিষয়বস্তু শেখা, আয়ত্ত করা এবং মজা করে প্রবলেম সলভের জন্য।",
+        "img": "https://cdn.shopify.com/s/files/1/1183/1328/products/35_1800x1800.jpg?v=1624351233",
         "price": 3500,
         "quantity": 20,
         "supplierName": "Pran"

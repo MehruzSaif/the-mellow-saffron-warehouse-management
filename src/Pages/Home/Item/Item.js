@@ -4,7 +4,7 @@ import './Item.css';
 
 const Item = ({ item }) => {
 
-    const { id, name, img, description, price, quantity, supplierName } = item;
+    const { _id, name, img, description, price, quantity, supplierName } = item;
     const navigate = useNavigate();
 
     const navigateToItemDetail = id => {
@@ -20,7 +20,7 @@ const Item = ({ item }) => {
                 <p><small>{description}</small></p>
                 <p><small><b>Quantity: {quantity}</b></small></p>
                 <p><small><b>Supplier Name: {supplierName}</b></small></p>
-                <button onClick={() => navigateToItemDetail(id)} className='btn btn-success'>Manage</button>
+                <button onClick={() => navigateToItemDetail(_id)} className='btn btn-success'>Manage</button>
             </div>
         </div>
     );
