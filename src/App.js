@@ -11,6 +11,7 @@ import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
 import AddItem from './Pages/AddItem/AddItem';
+import ManageItems from './Pages/ManageItems/ManageItems';
 
 function App() {
   return (
@@ -32,6 +33,12 @@ function App() {
         <Route path='/additem' element={
           <RequireAuth>
             <AddItem></AddItem>
+          </RequireAuth>
+        }></Route>
+
+        <Route path='/manage' element={
+          <RequireAuth>
+            <ManageItems></ManageItems>
           </RequireAuth>
         }></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

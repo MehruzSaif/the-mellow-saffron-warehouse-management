@@ -83,7 +83,7 @@ const Login = () => {
             </Form>
             {errorElement}
 
-            <p>New to পড়াই মামা? <Link to='/register' className='text-primary text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            <p>New to The Mellow Saffron? <Link to='/register' className='text-primary text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
 
             <p>Forget Password? <button className='btn btn-link text-primary text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
 
