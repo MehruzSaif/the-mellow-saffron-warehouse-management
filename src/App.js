@@ -9,9 +9,9 @@ import Login from './Pages/Login/Login/Login';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
-import Checkout from './Pages/Checkout/Checkout/Checkout';
 import AddItem from './Pages/AddItem/AddItem';
 import ManageItems from './Pages/ManageItems/ManageItems';
+import UpdateItem from './Pages/UpdateItem/UpdateItem/UpdateItem';
 
 function App() {
   return (
@@ -24,9 +24,9 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path='/checkout' element={
+        <Route path='/updateitem/:itemId' element={
           <RequireAuth>
-            <Checkout></Checkout>
+            <UpdateItem></UpdateItem>
           </RequireAuth>
         }></Route>
 
