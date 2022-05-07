@@ -1,22 +1,63 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import useItemDetail from '../../Hook/useItemDetail';
 import './UpdateItem.css';
 
 const UpdateItem = () => {
 
     const { itemId } = useParams();
-    const [item] = useItemDetail(itemId);
+    const [item, setItem] = useItemDetail(itemId);
 
-    const handleRestockItem = event => {
-        event.preventDefault();
+/*     const delivered = () => {
+        let Remaining = parseFloat(+item.quantity) - 1;
+        let newInventory = { _id, name, img, description, price, updatedItemQuantity, supplierName, sold };
 
+        setItem(newInventory);
+
+        const url = `http://localhost:5000/item/${itemId}`
+        fetch(url, {
+            method: 'PUT',
+            body: JSON.stringify(newInventory),
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+
+            .then((res) => res.json())
+            .then(data => {
+                toast('Delivery Success!')
+            })
     }
+}
 
-    const { _id, name, img, description, price, quantity, supplierName, sold} = item;
 
-    return (
-        <div>
+const restock = (e) => {
+    e.preventDefault();
+    let updatedQuantity = parseFloat(+item.quantity) + parseFloat(e.target.upQuantity.value);
+    let newInventory = { _id, name, img, description, price, updatedItemQuantity, supplierName, sold };
+
+    setItem(newInventory);
+
+    const url = `http://localhost:5000/item/${itemId}`
+    fetch(url, {
+        method: 'PUT',
+        body: JSON.stringify(newInventory),
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+
+        .then((res) => rs.json())
+        .then(data => {
+            toast('Delivery Success!')
+        })
+
+} */
+
+const { _id, name, img, description, price, quantity, supplierName, sold} = item;
+return (
+    <div>
             <div className='text-center my-5'>
                 <h1>Please update your item: {item.name}</h1>
             </div>
@@ -42,7 +83,7 @@ const UpdateItem = () => {
                 </div>
             </div>
 
-            <div onSubmit={handleRestockItem} className='container'>
+            <div className='container'>
                 <input style={{ width: "200px", display: "flex" }} className='container' type="number" placeholder='Enter Stock Number' name="" id="" />
                 <br />
 
@@ -53,5 +94,7 @@ const UpdateItem = () => {
         </div>
     );
 };
+
+
 
 export default UpdateItem;
