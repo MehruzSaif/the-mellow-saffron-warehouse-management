@@ -4,7 +4,7 @@ import './Item.css';
 
 const Item = ({ item }) => {
 
-    const { _id, name, img, description, price, quantity, supplierName } = item;
+    const { _id, name, img, description, price, quantity, supplierName, sold} = item;
     const navigate = useNavigate();
 
     const navigateToItemDetail = id => {
@@ -14,12 +14,14 @@ const Item = ({ item }) => {
     return (
         <div className='wrapper'>
             <div className='item container'>
-                <img className='item-img' src={img} alt="" />
-                <h2>{name}</h2>
-                <p><b>Price: {price}</b></p>
-                <p><small>{description}</small></p>
-                <p><small><b>Quantity: {quantity}</b></small></p>
-                <p><small><b>Supplier Name: {supplierName}</b></small></p>
+                <img className='item-image' src={img} alt="" />
+                <h5><b>{name}</b></h5>
+                <p className='description'><b>description: {description}</b></p>
+                <p className='my-0'><b>Price: ${price}</b></p>
+                <p className='my-0'><b>supplierName: {supplierName}</b></p>
+                <p className='my-0'><small><b>Quantity: {quantity}kg</b></small></p>
+                <p className='mt-0'><small><b>Stock: {sold}</b></small></p>
+
                 <button onClick={() => navigateToItemDetail(_id)} className='btn btn-success'>Manage</button>
             </div>
         </div>
