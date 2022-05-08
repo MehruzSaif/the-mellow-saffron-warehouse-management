@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import useItemDetail from '../../Hook/useItemDetail';
 import './UpdateItem.css';
 
 const UpdateItem = () => {
 
     const { itemId } = useParams();
-    const [item, setItem] = useItemDetail(itemId);
+    const [item, setItem] = useState({})
+    let {img, name, price, description, supplierName, quantity} = item;
 
-/*     const delivered = () => {
+    useEffect(() => {
+        const url = `http://localhost:5000/item/${itemId}`
+        console.log(url);
+        fetch(url)
+            .then(res => res.json())
+            .then((data) => setItem(data));
+    }, [])
+
+    const delivered = () => {
         let Remaining = parseFloat(+item.quantity) - 1;
-        let newInventory = { _id, name, img, description, price, updatedItemQuantity, supplierName, sold };
+        let newInventory = {  name, img, description, price, quantity: Remaining, supplierName };
 
         setItem(newInventory);
 
@@ -28,14 +36,13 @@ const UpdateItem = () => {
             .then(data => {
                 toast('Delivery Success!')
             })
-    }
-}
+        }
 
 
 const restock = (e) => {
     e.preventDefault();
     let updatedQuantity = parseFloat(+item.quantity) + parseFloat(e.target.upQuantity.value);
-    let newInventory = { _id, name, img, description, price, updatedItemQuantity, supplierName, sold };
+    let newInventory = { name, img, description, price, quantity: updatedQuantity, supplierName};
 
     setItem(newInventory);
 
@@ -48,14 +55,14 @@ const restock = (e) => {
         }
     })
 
-        .then((res) => rs.json())
+        .then((res) => res.json())
         .then(data => {
             toast('Delivery Success!')
         })
+    }
 
-} */
 
-const { _id, name, img, description, price, quantity, supplierName, sold} = item;
+
 return (
     <div>
             <div className='text-center my-5'>
@@ -74,16 +81,15 @@ return (
                         <p><b>Price: ${price}</b></p>
                         <p><b>supplierName: {supplierName}</b></p>
                         <p><small><b>Quantity: {quantity}kg</b></small></p>
-                        <p><small><b>Stock: {sold}</b></small></p>
                     </div>
 
                     <div className='delivered-container'>
-                        <button className='btn btn-danger'>Delivered</button>
+                        <button onClick={() => delivered(quantity)} className='btn btn-danger'>Delivered</button>
                     </div>
                 </div>
             </div>
 
-            <div className='container'>
+            <div onSubmit={() => restock(quantity)} className='container'>
                 <input style={{ width: "200px", display: "flex" }} className='container' type="number" placeholder='Enter Stock Number' name="" id="" />
                 <br />
 
@@ -93,8 +99,7 @@ return (
 
         </div>
     );
-};
 
-
+}
 
 export default UpdateItem;

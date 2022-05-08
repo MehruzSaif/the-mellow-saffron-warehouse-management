@@ -41,7 +41,7 @@ const Footer = () => {
 </div>
             </div>
             <div  id='footer' className='text-center mt-2'>
-            <img style={{width: '30px', marginLeft: '10px'}} src={insta} alt="" />
+            <img style={{width: '30px'}} src={insta} alt="" />
             
             <img style={{width: '30px', marginLeft: '10px'}} src={pinterest} alt="" />
             <img style={{width: '30px', marginLeft: '10px'}} src={twitter} alt="" />
