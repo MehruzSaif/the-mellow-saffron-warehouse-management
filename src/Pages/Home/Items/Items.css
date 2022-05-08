@@ -10,7 +10,7 @@
 .nav-btn {
     border: none;
     padding: 15px 60px;
-    background-color: rgb(63, 63, 245);
+    background-color: rgba(160, 78, 30, 0.91);
     color: white;
     font-size: 20px;
     font-weight: 600;
@@ -23,7 +23,7 @@
 }
 
 .nav-btn:hover {
-    background-image: linear-gradient(to right, #3437cc, #23dff0);
+    background-image: linear-gradient(to right, rgba(160, 78, 30, 0.91), #e37c22);
 }
 
 /* make items responsive */

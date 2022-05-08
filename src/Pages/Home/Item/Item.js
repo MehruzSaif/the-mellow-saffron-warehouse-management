@@ -17,12 +17,12 @@ const Item = ({ item }) => {
                 <img className='item-image' src={img} alt="" />
                 <h5><b>{name}</b></h5>
                 <p className='description'><b>description: {description}</b></p>
-                <p className='my-0'><b>Price: ${price}</b></p>
-                <p className='my-0'><b>supplierName: {supplierName}</b></p>
-                <p className='my-0'><small><b>Quantity: {quantity}kg</b></small></p>
-                <p className='mt-0'><small><b>Stock: {sold}</b></small></p>
+                <p className='my-1'><b>Price: ${price}</b></p>
+                <p className='my-1'><b>supplierName: {supplierName}</b></p>
+                <p className='mb-4'><small><b>Quantity: {quantity}kg</b></small></p>
+                {/* <p className='mt-0'><small><b>Stock: {sold}</b></small></p> */}
 
-                <button onClick={() => navigateToItemDetail(_id)} className='btn btn-success'>Manage</button>
+                <button onClick={() => navigateToItemDetail(_id)} className='btn btn-css'>Manage</button>
             </div>
         </div>
     );

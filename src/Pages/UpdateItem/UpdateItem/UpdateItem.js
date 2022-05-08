@@ -41,7 +41,7 @@ const UpdateItem = () => {
 
 const restock = (e) => {
     e.preventDefault();
-    let updatedQuantity = parseFloat(+item.quantity) + parseFloat(e.target.upQuantity.value);
+    let updatedQuantity = parseInt(+item.quantity) + parseInt(e.target.upQuantity.value);
     let newInventory = { name, img, description, price, quantity: updatedQuantity, supplierName};
 
     setItem(newInventory);
