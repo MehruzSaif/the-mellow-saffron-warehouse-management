@@ -9,7 +9,7 @@ const ServiceDetail = () => {
 
     return (
         <div>
-            <h2>You are about to update: {item.name}</h2>
+            <h2 className='text-center my-5'>You are about to update: {item.name}</h2>
             <div className='text-center'>
                 <Link to={`/updateitem/${itemId}`}>
                     <button className='btn checkout-btn mt-5'>Update Item</button>

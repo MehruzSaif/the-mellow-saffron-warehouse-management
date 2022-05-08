@@ -7,10 +7,10 @@ import bdfood from '../../../images/brand/bdfood.jpg';
 import kishwan from '../../../images/brand/kishwan.jpg';
 import fresh from '../../../images/brand/fresh.jpg';
 
-const PremiumProducts = () => {
+const BestBrands = () => {
 
     return (
-        <div className='container'>
+        <div id='bestBrand' className='container'>
             <h1 className='text-center mt-5 fw-bold'>Best Brand</h1>
             <CardGroup>
                 <Card className='border-0'>
@@ -62,4 +62,4 @@ const PremiumProducts = () => {
     );
 };
 
-export default PremiumProducts;
+export default BestBrands;

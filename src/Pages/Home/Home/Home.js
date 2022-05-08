@@ -1,14 +1,16 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Items from '../Items/Items';
-import PremiumProducts from '../PremiumProducts/PremiumProducts';
+import PremiumItems from '../PremiumItems/PremiumItems';
+import BestBrands from '../PremiumProducts/BestBrands';
 
 const Home = () => {
     return (
         <>
             <Banner></Banner>
             <Items></Items>
-            <PremiumProducts></PremiumProducts>
+            <BestBrands></BestBrands>
+            <PremiumItems></PremiumItems>
         </>
     );
 };

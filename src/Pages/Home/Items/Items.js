@@ -15,7 +15,7 @@ const Items = () => {
     return (
         <div id='items' className='container'>
             <div className='container'>
-                <h1 className='items-title my-5'>Items Available</h1>
+                <h1 className='items-title my-5'><b>Items Available</b></h1>
                 <div className="items-container">
                     {
                         itemData.map(item => <Item

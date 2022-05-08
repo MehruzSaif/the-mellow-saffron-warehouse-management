@@ -43,7 +43,7 @@ const ManageItems = () => {
                                 <td>{product.name}</td>
                                 <td>{product._id}</td>
                                 <td>${product.price}</td>
-                                <td><button onClick={() => handleDelete(product._id)}>X</button></td>
+                                <td><button className='btn btn-danger' onClick={() => handleDelete(product._id)}>Delete</button></td>
                             </tr>
                         </tbody>
                     </Table>

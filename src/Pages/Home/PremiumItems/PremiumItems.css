@@ -1,0 +1,23 @@
+.consumer-container {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(160, 78, 30, 0.615);
+    overflow: hidden;
+}
+
+.review-img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-container {
+    width: 40%;
+    
+}
