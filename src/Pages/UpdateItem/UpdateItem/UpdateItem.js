@@ -10,7 +10,7 @@ const UpdateItem = () => {
     let {img, name, price, description, supplierName, quantity} = item;
 
     useEffect(() => {
-        const url = `http://localhost:5000/item/${itemId}`
+        const url = `https://evening-falls-22965.herokuapp.com/item/${itemId}`
         console.log(url);
         fetch(url)
             .then(res => res.json())
@@ -23,7 +23,7 @@ const UpdateItem = () => {
 
         setItem(newInventory);
 
-        const url = `http://localhost:5000/item/${itemId}`
+        const url = `https://evening-falls-22965.herokuapp.com/item/${itemId}`
         fetch(url, {
             method: 'PUT',
             body: JSON.stringify(newInventory),
@@ -46,7 +46,7 @@ const restock = e => {
 
     setItem(newInventory);
 
-    const url = `http://localhost:5000/item/${itemId}`
+    const url = `https://evening-falls-22965.herokuapp.com/item/${itemId}`
     fetch(url, {
         method: 'PUT',
         body: JSON.stringify(newInventory),

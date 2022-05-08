@@ -1,0 +1,51 @@
+#headchick {
+    width: 100%;
+}
+
+#headchick h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+h2 {
+    font-weight: 700;
+    color: black;
+}
+
+h5 {
+    color: #000000;
+    text-align: justify;
+}
+
+.btn-get-started {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-img {
+    text-align: right;
+}
+
+.animated {
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
