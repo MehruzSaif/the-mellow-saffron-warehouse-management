@@ -31,7 +31,7 @@ const Footer = () => {
         <p>Pinterest</p>
         <p>Instragram</p>
     </div>
-    <div className="col col-sm-12">
+    <div className="col">
         <h4 className='mt-4'>Contact</h4>
         <h5>Mehruz Saif</h5>
         <p>Phone No: 019******7</p>
