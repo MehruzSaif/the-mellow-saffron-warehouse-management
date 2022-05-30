@@ -12,26 +12,26 @@ const Footer = () => {
         <footer className='bg-color mt-5'>
             <div className='mt-3'>
             <div className='container text-light'>
-  <div class="row row-cols-4">
-    <div class="col">
+  <div className="row row-cols-4">
+    <div className="col">
         <h4 className='mt-4'>Explore</h4>
         <p>Home</p>
         <p>Item</p>
         <p>New Arrival</p>
         <p>Brands</p>
     </div>
-    <div class="col">
+    <div className="col">
         <h4 className='mt-4'>Vist</h4>
         <p>Uttor Badda <br /> Shadhinata Sharani,<br /> House No- 282<br />Dhaka Bangladesh <br />1212</p>
     </div>
-    <div class="col">
+    <div className="col">
         <h4 className='mt-4'>Follow</h4>
         <p>Facebook</p>
         <p>Twitter</p>
         <p>Pinterest</p>
         <p>Instragram</p>
     </div>
-    <div class="col">
+    <div className="col">
         <h4 className='mt-4'>Contact</h4>
         <h5>Mehruz Saif</h5>
         <p>Phone No: 01900000001</p>

@@ -27,7 +27,7 @@ const ManageItems = () => {
             <h2 className='text-center my-5'>Manage your products</h2>
             {
                 items.map(product => <div key={product._id}>
-                    <Table class="css-serial" striped bordered hover variant="dark">
+                    <Table className="css-serial" striped bordered hover variant="dark">
                         <thead>
                             <tr>
                                 <th>*</th>
