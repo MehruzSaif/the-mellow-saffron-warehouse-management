@@ -34,7 +34,7 @@ const Footer = () => {
     <div className="col col-sm-12">
         <h4 className='mt-4'>Contact</h4>
         <h5>Mehruz Saif</h5>
-        <p>Phone No: 019**7</p>
+        <p>Phone No: 019******7</p>
         <p>Email:</p>
         <p>saf@bd.org</p>
     </div>
