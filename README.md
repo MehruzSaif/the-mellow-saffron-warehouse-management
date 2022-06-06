@@ -29,6 +29,6 @@ This project was bootstrapped with [The Mellow Saffron](https://the-mellow-saffr
 - React Bootstrap
 - Bootstrap
 - React.JS
-- React From Hook
+- React Hook Form 
 - Node.JS
 - Express.JS
